@@ -1,0 +1,9 @@
+<view class="map-container">
+	<map id="map" markers="{{markers}}" longitude="{{longitude}}" latitude="{{latitude}}" scale="14" class="map" show-location="true" controls="{{controls}}" bindcontroltap="controltap" bindmarkertap="handleMarkerTap"></map>
+</view>
+<view class="btns">
+	<view class="btn btn-publish">
+		<navigator url="/pages/publish/publish">发布</navigator>
+	</view>
+	<view class="btn">搜索</view>
+</view>
